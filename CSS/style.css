@@ -1,8 +1,24 @@
 
 
 
+.profielinfoblok {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 4rem;
+}
 
+.profielinfoblok {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
 
+.naam{
+    white-space: nowrap;
+    font-size: 8rem;
+    margin:0.5em auto;
+}
 
 .talen-tabel,
 td {
