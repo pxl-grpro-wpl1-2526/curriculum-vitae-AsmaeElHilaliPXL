@@ -1,0 +1,30 @@
+
+
+
+
+
+
+.talen-tabel,
+td {
+    border: 1px solid black;
+}
+
+.talen-tabel {
+    border-collapse: collapse;
+    width: 450px;
+    font-family: Arial;
+}
+
+.talen-tabel caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+.talen-tabel tbody tr:nth-child(even){
+    background-color: darkgrey;
+}
+
+.talen-tabel tbody tr:nth-child(odd){
+    background-color: red;
+}
