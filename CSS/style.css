@@ -1,10 +1,73 @@
+body{
+    background-color:dimgray;
+font-family: Verdana;}
+
+h1{color: indianred;}
+h2{color:white;}
+h3{color: white;}
+ul{color:white;}
+p{color:white;}
+ol{color:white;}
+tr{color:white;}
+
+
+.navigatie{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding:0;
+    margin-bottom:30px;
+}
+
+.navigatie li a{
+    color: white;
+    font-weight: bold;
+}
+
+    h2:hover{
+        text-shadow: 2px 2px 5px black;
+        text-decoration: underline;
+    }
+
+    .navigatie li a:hover{
+        text-shadow: 2px 2px 5px black;
+        text-decoration: underline;
+    }
+
+    h3:hover{
+        text-shadow: 2px 2px 5px black;
+        text-decoration: underline;
+    }
+
+    h1:hover {
+        text-shadow: 2px 2px 5px black;
+        text-decoration: underline;
+        animation: typing 4s infinite;
+
+    }
+
+    footer:hover{
+        text-shadow: 2px 2px 5px gray;
+        text-decoration: underline;
+    }
+
+
+
 
 
 .profielfoto:hover{
 box-shadow: 2px 4px 8px grey;
 }
+
+
+
+
+
+
+
+
 .profielinfoblok {
-    display: flex;
+    display:flex;
     align-items: center;
     gap: 30px;
     margin-bottom: 4rem;
@@ -21,7 +84,6 @@ box-shadow: 2px 4px 8px grey;
     font-size: 4rem;
     margin:0.5em auto;
 }
-
 .talen-tabel,
 td {
     border: 1px solid black;
@@ -44,7 +106,7 @@ td {
 }
 
 .talen-tabel tbody tr:nth-child(odd){
-    background-color: indianred;
+    background-color: lightgrey;
 }
 
 
@@ -64,3 +126,22 @@ td {
 
 .links {text-align:left;}
 .rechts{text-align:right;}
+
+.sectie{
+    display: none;
+}
+
+.sectie:target{
+    display:block;
+}
+
+.sectie{
+    opacity: 0;
+    transform: translateX(-75px);
+    transition: all 0.8s ease;
+}
+
+.sectie{
+    opacity: 1;
+    transform: translateX(0);
+}

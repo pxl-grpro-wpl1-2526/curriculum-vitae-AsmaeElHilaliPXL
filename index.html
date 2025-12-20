@@ -5,12 +5,24 @@
     <title>Curriculum-vitae</title>
     <link rel="stylesheet" href="CSS/style.css">
 
+    <nav>
+        <ul class="navigatie">
+            <li> <a href="#mij">Over mij</a></li>
+            <li> <a href="#opleidingen">Vorige opleidingen</a></li>
+            <li> <a href="#soft skills">Soft skills</a></li>
+            <li> <a href="#hard skills">Hard skills</a></li>
+            <li> <a href="#talenkennis">Talenkennis</a></li>
+            <li> <a href="#werkervaring">Werkervaring</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </head>
 <body>
 <header>
     <div class="profielinfoblok">
-        <img src="images/profiel.jpg" height="620" width="500"class="profielfoto"/>
-    <h1 class="naam">Hi! Ik ben Asmae El Hilali </h1>
+        <img src="images/profiel.jpg" height="600" width="500"class="profielfoto"/>
+    <h1 class="naam">Hallo! Ik ben Asmae El Hilali </h1>
+
 
     </div>
 
@@ -19,24 +31,29 @@
 
 
 <main>
-    <h2> Over mij:</h2>
+    <article id="mij" class="sectie">
+        <h2>Over mij: </h2>
 
 <p>Ik ben Asmae El Hilali, een leergierige eerstejaarsstudent Programmeren met een sterke interesse in technologie en wetenschap. <br>
     Voor mij was studeren een extra instap door mijn ADHD, maar mijn nieuwsgierigheid en doorzettingsvermogen zorgen ervoor <br>
     dat ik nieuwe kennis snel opneem en creatieve oplossingen vind. ADHD daagt mij uit, maar versterkt ook mijn vermogen om buiten de <br> gebaande paden te denken.
     Ik wil mijn vaardigheden verder ontwikkelen en ontdekken waar ik mijn talenten het best kan inzetten binnen de IT-sector.
-
 </p>
+    </article>
 
-    <h3>Vorige opleidingen: </h3>
+
+        <article id="opleidingen" class="sectie">
+    <h2>Vorige opleidingen: </h2>
     <ul>
-        <li>Afgestudeerd in middelbaar: techniek wetenschappen</li>
-        <li>Jaar 2023-2024 :Professionele bachelor biotechnologie </li>
-        <li>Jaar 2024-2025: Professionele bachelor chemie</li>
+        <li>Secundair diploma: techniek wetenschappen </li>
+        <li>Jaar 2023-2024: profesionele bachelor biotechnologie </li>
+        <li>Jaar 2024-2025: profesiione bachelor chemie</li>
         <li>Jaar 2025-2026: graduaat programmeren</li>
     </ul>
+        </article>
 
-    <h3>Soft skills top 6:</h3>
+    <article id="soft skills" class="sectie">
+    <h2>Soft skills top 6:</h2>
     <ol>
     <li>Inleving</li>
     <li>Flexibiliteit</li>
@@ -45,10 +62,12 @@
         <li>Zelfstandigheid</li>
         <li>Kritisch denken</li>
     </ol>
+    </article>
 
-    <h3>Hard skills:</h3>
+    <article id="hard skills" class="sectie">
+    <h2>Hard skills:</h2>
 
-    <h5>Data Essentials: </h5>
+    <h3>Data Essentials: </h3>
     <ul>
         <li>Raadpleging data bank</li>
         <li>Subqueries</li>
@@ -59,7 +78,7 @@
         <li>Gegegevens wijzigen, toevoegen en verwijderen</li>
     </ul>
 
-    <h5>C Essentials</h5>
+    <h3>C Essentials</h3>
     <ul>
        <li>Basis c#-ontwikkelen in Visual Studio</li>
         <li>Variabelen, logica, datastructuren</li>
@@ -70,7 +89,7 @@
         <li>Versiebeheer met Git & GitHub</li>
     </ul>
 
-    <h5>Web Essentials</h5>
+    <h3>Web Essentials</h3>
     <ul>
         <li>HTTP basis</li>
         <li>HTML structuur</li>
@@ -79,11 +98,14 @@
         <li>Web hosting& FTP</li>
         <li>Versiebeheer met Git & GitHub</li>
     </ul>
+    </article>
+
+    <article id="talenkennis" class="sectie">
 
 
         <table class="talen-tabel">
 
-        <caption> <strong>Talenkennis</strong></caption>
+            <caption> <h2><strong>Talenkennis</strong></h2></caption>
 
         <thead>
         <tbody>
@@ -107,19 +129,24 @@
        </tbody>
        </table>
 
+    </article>
+
+    <article id="werkervaring" class="sectie">
 
 
-
-    <h3>Werkervaring:</h3>
+    <h2>Werkervaring:</h2>
     <ul>
         <li>01/01/2018 - 17/03/2022: Panerex bakkerij
             <ul>
                 <li>Functie: verkoop van brood, gebakjes & winkel onderhoud</li>
                 </ul>
+
         <li>01/07/2021 - 01/09/2021: vaccinatie centrum Maasmechelen
         <ul>
+
             <li>
             Functie: onderhoud van het centrum</li> </ul>
+
         <li>01/03/2023 - 22/05/2023: Bejaardenhuis Hyvis </li>
             <ul>
                 <li>Functie: vrijwilligerswerk, gezelschap houden, helpen met voeding</li>
@@ -131,11 +158,18 @@
             <ul> <li>Functie: onderhouden van de patiënten kamers</li> </ul>
 
     </ul>
+    </article>
 
 
+</article>
+
+    <article id="contact" class="sectie">
+    <p class="email">
+        <a href="mailto:asmae.elhilali99@outlook.com">asmae.elhilali99@outlook.com</a>
+    </p>
+    </article>
 
 </main>
-
 <tfoot>
 <div class="footer">
   <div class="links"><p>Asmae El Hilali, 1PRO-C</p></div>
