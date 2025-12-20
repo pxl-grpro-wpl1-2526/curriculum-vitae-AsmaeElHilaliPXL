@@ -2,7 +2,7 @@ body{
     background-color:dimgray;
 font-family: Verdana;}
 
-h1{color: indianred;}
+h1{color:indianred}
 h2{color:white;}
 h3{color: white;}
 ul{color:white;}
@@ -11,6 +11,22 @@ ol{color:white;}
 tr{color:white;}
 
 
+.naam{
+
+    -webkit-text-stroke: 1px black;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+
+
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0, 0;
+    }
+
+}
 .navigatie{
     list-style: none;
     display: flex;
@@ -26,7 +42,7 @@ tr{color:white;}
 
     h2:hover{
         text-shadow: 2px 2px 5px black;
-        text-decoration: underline;
+
     }
 
     .navigatie li a:hover{
@@ -36,13 +52,12 @@ tr{color:white;}
 
     h3:hover{
         text-shadow: 2px 2px 5px black;
-        text-decoration: underline;
+
     }
 
     h1:hover {
         text-shadow: 2px 2px 5px black;
-        text-decoration: underline;
-        animation: typing 4s infinite;
+
 
     }
 
