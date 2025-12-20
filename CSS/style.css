@@ -44,5 +44,23 @@ td {
 }
 
 .talen-tabel tbody tr:nth-child(odd){
-    background-color: red;
+    background-color: indianred;
 }
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: indianred;
+    font-weight: bold;
+}
+.links,
+.midden,
+.rechts {
+    flex: 1;
+    text-align: center;
+}
+
+.links {text-align:left;}
+.rechts{text-align:right;}
