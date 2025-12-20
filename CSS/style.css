@@ -1,6 +1,8 @@
 
 
-
+.profielfoto:hover{
+box-shadow: 2px 4px 8px grey;
+}
 .profielinfoblok {
     display: flex;
     align-items: center;
@@ -16,7 +18,7 @@
 
 .naam{
     white-space: nowrap;
-    font-size: 8rem;
+    font-size: 4rem;
     margin:0.5em auto;
 }
 
