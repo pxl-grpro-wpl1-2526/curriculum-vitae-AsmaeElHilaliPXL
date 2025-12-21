@@ -1,6 +1,9 @@
 body{
     background-color:dimgray;
-font-family: Verdana;}
+font-family: Verdana;
+margin: 0;
+padding: 0;
+}
 
 
 
@@ -52,7 +55,7 @@ main
 }
 
 h1{color:indianred}
-h2{color:black;}
+h2{color: black;}
 h3{color: indianred;}
 ul{color:white;}
 p{color:white;}
@@ -68,7 +71,11 @@ tr{color:white;}
     -webkit-text-stroke: 1px black;
     background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
     -webkit-background-clip: text;
+
 
 
 }
@@ -79,9 +86,11 @@ tr{color:white;}
     }
 
 }
+
 .navigatie{
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 25px;
     padding:0;
     margin-bottom:30px;
@@ -90,6 +99,8 @@ tr{color:white;}
 .navigatie li a{
     color: white;
     font-weight: bold;
+    font-size: 1.4rem;
+    padding: 10px 18px;
 }
 
     h2:hover{
@@ -228,3 +239,13 @@ td {
     opacity: 1;
     transform: translateX(0);
 }
+
+.footer a{
+    transition: all 0.4s ease-in-out;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
