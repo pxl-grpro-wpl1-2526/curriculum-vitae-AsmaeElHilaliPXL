@@ -13,6 +13,7 @@ font-family: Verdana;}
 
 
 
+
 main
 {
     background-image: url("images/laptop.jpg");
@@ -28,7 +29,8 @@ ul{color:white;}
 p{color:white;}
 ol{color:white;}
 tr{color:white;}
-.email{color: white;}
+.email a{color: white;}
+.rechts a{color:white;}
 
 
 
@@ -63,6 +65,17 @@ tr{color:white;}
 
     h2:hover{
         text-shadow: 2px 2px 5px black;
+
+    }
+
+    .rechts a:hover{
+        text-shadow: 2px 2px 5px white;
+        text-decoration: underline;
+    }
+
+    .email a:hover{
+        text-shadow: 2px 2px 5px white;
+        text-decoration: underline;
 
     }
 
