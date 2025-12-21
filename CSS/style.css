@@ -2,13 +2,34 @@ body{
     background-color:dimgray;
 font-family: Verdana;}
 
+.profielfoto{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+main
+{
+    background-image: url("images/laptop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 h1{color:indianred}
-h2{color:white;}
-h3{color: white;}
+h2{color:black;}
+h3{color: indianred;}
 ul{color:white;}
 p{color:white;}
 ol{color:white;}
 tr{color:white;}
+.email{color: white;}
+
 
 
 .naam{
@@ -46,7 +67,7 @@ tr{color:white;}
     }
 
     .navigatie li a:hover{
-        text-shadow: 2px 2px 5px black;
+        text-shadow: 2px 2px 5px indianred;
         text-decoration: underline;
     }
 
@@ -71,9 +92,12 @@ tr{color:white;}
 
 
 .profielfoto:hover{
-box-shadow: 2px 4px 8px grey;
+box-shadow: 2px 4px 8px indianred;
 }
 
+.achtergrondfoto:hover{
+    box-shadow: 2px 4px 8px indianred;
+}
 
 
 
@@ -118,10 +142,14 @@ td {
 
 .talen-tabel tbody tr:nth-child(even){
     background-color: darkgrey;
+    color: black;
+    text-decoration: underline;
 }
 
 .talen-tabel tbody tr:nth-child(odd){
     background-color: lightgrey;
+    color: indianred;
+    font-family: "Arial Black";
 }
 
 
