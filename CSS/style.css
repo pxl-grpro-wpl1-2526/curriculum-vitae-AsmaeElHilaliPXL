@@ -11,8 +11,32 @@ font-family: Verdana;}
 
 
 
+main {
+    background-color: lightgrey;
+    padding: 60px 20px;
+}
 
+main h2 {
+    color: black;
+}
 
+main h3{
+    color: black;
+}
+main {
+    color: black;
+}
+main p {
+    color: black;
+}
+
+main li{
+    color: black;
+}
+
+main a{
+    color: black;
+}
 
 main
 {
@@ -29,7 +53,7 @@ ul{color:white;}
 p{color:white;}
 ol{color:white;}
 tr{color:white;}
-.email a{color: white;}
+.email a{color: black;}
 .rechts a{color:white;}
 
 
