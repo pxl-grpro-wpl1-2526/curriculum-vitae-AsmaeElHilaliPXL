@@ -2,6 +2,11 @@ body{
     background-color:dimgray;
 font-family: Verdana;}
 
+
+
+
+
+
 .profielfoto{
     width: 500px;
     height: 500px;
@@ -104,7 +109,7 @@ tr{color:white;}
     }
 
     .navigatie li a:hover{
-        text-shadow: 2px 2px 5px indianred;
+        text-shadow: 2px 2px 5px black;
         text-decoration: underline;
     }
 
@@ -180,15 +185,13 @@ td {
 .talen-tabel tbody tr:nth-child(even){
     background-color: darkgrey;
     color: black;
-    text-decoration: underline;
+
 }
 
 .talen-tabel tbody tr:nth-child(odd){
     background-color: lightgrey;
     color: indianred;
-    font-family: "Arial Black";
-}
-
+    font-family: "Arial";}
 
 .footer{
     display: flex;
